@@ -1,0 +1,31 @@
+
+#pagination {
+    width:900px;
+    height:auto;
+    background-color:#eec7c7;  
+}
+#pagination>#pagination-wrap{
+    text-align: center;
+
+}
+
+#page-wrap{
+    padding:20px;
+}
+
+#page {
+    border:1px solid black;
+    display:inline-block;
+    width:35px;
+    height:35px;
+    text-align: center;
+    background-color:bisque;
+    line-height: 35px;
+    margin-right:5px;
+    cursor: pointer;
+}
+#page-wrap .active {
+    border-color:blue;
+    background-color:blue;
+    color:#fff;
+}
